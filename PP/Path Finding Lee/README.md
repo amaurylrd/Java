@@ -29,4 +29,4 @@ Dès lors, on modifie l'apparence et les attributs des voisins puis, on calcule 
 
 ### Backtrace et affichage
 
-La case finale atteinte, on retrouve récursivement quel chemin maintient la suite de k ordonnée et on l'affiche
+La case finale atteinte, on retrouve récursivement quel chemin maintient la suite de k ordonnée et on l'affiche !
