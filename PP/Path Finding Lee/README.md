@@ -21,6 +21,7 @@ A la case corresponte on parse les noeux voisins et on leur assigne comme valeur
 - ce n'est pas un mur
 - ce n'est pas une case déjà balisé
 - ce n'est pas la case finale
+
 Dès lors, on modifie l'apparence et les attributs des voisins
 
 On calcule cmp le nombre total d'étiquettes k et pour chaque case qui a cette signature, on :
