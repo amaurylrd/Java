@@ -8,8 +8,7 @@ L'utilisateur dispose d'une grille sur laquelle ont été disposé arbitrairemen
 
 ## Explication - Algortithme de Lee
 
-L'algorithme de Lee est une solution possible pour trouver le plus court chemin basée sur la recherche en profondeur.
-La recherche s'expand en vagues. Il donne toujours une solution optimale, si elle existe, mais elle est lente et sa complexité est considérable.
+L'algorithme de Lee est une solution possible pour trouver le plus court chemin basée sur une recherche en profondeur (la recherche s'expand en vagues). Il donne toujours une solution optimale, si elle existe, mais elle est lente et sa complexité est considérable.
 
 ### Initialisation
 
