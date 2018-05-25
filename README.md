@@ -14,7 +14,7 @@ Algortithme de Lee
 Démineur
 ```
 
-## APL 2.1
+## [APL 2.1](http://www.iut-fbleau.fr/sitebp/apl21/)
 
 ```
 Polymorphisme
