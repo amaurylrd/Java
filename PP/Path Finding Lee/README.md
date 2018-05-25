@@ -4,24 +4,16 @@ Encapsule l'ensemble des sources qui forment une application java de recherche d
 
 ## Description
 
-L'utilisateur dispose d'une grille sur laquelle ont été disposé arbitrairement en dure un point de départ et un point d'arrivé.
-Il peut à l'aide du clic droit placer et retirer à discrétion des "murs", soit bloquer des zones de sorte que l'application ait
-l'apparence d'un labyrinthe. 
-On peut en se jouant distinguer un mur d'une case asseptisé grâce à leur couleur de fond. 
-Aussi disponible, le clic gauche, déclanche quant à lui la recherche d'un chemin le plus court et l'affiche.
-On peut redémarrer l'exercice, en cliquant à nouveau.
+L'utilisateur dispose d'une grille sur laquelle ont été disposé arbitrairement en dure un point de départ et un point d'arrivé. Il peut à l'aide du clic droit placer et retirer à discrétion des "murs", soit bloquer des zones de sorte que l'application ait l'apparence d'un labyrinthe. On peut en se jouant distinguer un mur d'une case asseptisé grâce à leur couleur de fond. Aussi disponible, le clic gauche, déclanche quant à lui la recherche d'un chemin le plus court et l'affiche. On peut redémarrer l'exercice, en cliquant à nouveau.
 
 ## Explication - Algortithme de Lee
 
 L'algorithme de Lee est une solution possible pour trouver le plus court chemin basée sur la recherche en profondeur.
-La recherche s'expand en vagues. 
-Il donne toujours une solution optimale, si elle existe, mais elle est lente et sa complexité est considérable.
+La recherche s'expand en vagues. Il donne toujours une solution optimale, si elle existe, mais elle est lente et sa complexité est considérable.
 
 ### Initialisation
 
-Notre point de départ porte la valeur 0.
-Ici, il est toujours à la même place en (0, 0).
-On amorce l'algorithme avec la valeur k d'itération de la vague (0 pour la première) et des coordonées (i, j)
+Notre point de départ porte la valeur 0. Ici, il est toujours à la même place en (0, 0). On amorce l'algorithme avec la valeur k d'itération de la vague (0 pour la première) et des coordonées (i, j)
 
 ### Propagation
 
