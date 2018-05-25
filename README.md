@@ -2,13 +2,13 @@
 
 Ce répertoire contient l'ensemble de mes sources Java
 
-## Projets personnels
+## Projets personnels (PP)
 
 ```
 Algortithme de Lee etc..
 ```
 
-## Réalisations et micro-projets
+## Réalisations et micro-projets (MP)
 
 ```
 Démineur  etc..
