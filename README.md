@@ -14,7 +14,7 @@ Algortithme de Lee etc..
 Démineur  etc..
 ```
 
-## Algorithmique, Programmation et Langages 1.1 ([APL 2.1](http://www.iut-fbleau.fr/sitebp/apl21/))
+## Algorithmique, Programmation et Langages ([APL 2.1](http://www.iut-fbleau.fr/sitebp/apl21/))
 
 ```
 Polymorphisme  etc..
