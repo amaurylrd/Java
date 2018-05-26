@@ -25,7 +25,7 @@ A la case corresponte on parse les noeux voisins et on leur assigne comme valeur
 Dès lors, on modifie l'apparence et les attributs des voisins puis, on calcule cmp le nombre total d'étiquettes k et pour chaque case qui a cette signature, on :
 - regarde le voisinage
 - décrémente cmp
-- incrémente k
+- incrémente k lorsque cmp est rendu à 0
 
 ### Backtrace et affichage
 
