@@ -43,7 +43,7 @@ public class Grid extends JPanel {
 				elem.setSize(border, border);
                 		elem.setLocation(j*space+23, i*space+23);
                 		elem.addMouseListener(new Clicked(this));
-                		this.add(elem, BoderLayout.CENTER);
+                		this.add(elem);
                 		if ((i == 0 && j == 0) || (i == m-1 && j == p-1))
                 			elem.setBackground(RED);
                 		tmp[i][j] = elem;
