@@ -18,12 +18,12 @@ public class Grid extends JPanel {
 		this.boardGeneration(18, 23);
 	}
 
-	 private void initParam(Frame f) {
-        this.setLocation(0, 0);
-        this.setSize(f.getWidth(), f.getHeight());
-        this.setBackground(new Color(246, 246, 246));
-        this.setLayout(null);
-    }
+	private void initParam(Frame f) {
+        	this.setLocation(0, 0);
+        	this.setSize(f.getWidth(), f.getHeight());
+        	this.setBackground(new Color(246, 246, 246));
+        	this.setLayout(null);
+    	}
 
 	private void boardGeneration(int m, int p) {
 		Cell[][] tmp = new Cell[m][p];
@@ -41,12 +41,12 @@ public class Grid extends JPanel {
 				else
 					elem = new Cell();
 				elem.setSize(border, border);
-                elem.setLocation(j*space+23, i*space+23);
-                elem.addMouseListener(new Clicked(this));
-                this.add(elem);
-                if ((i == 0 && j == 0) || (i == m-1 && j == p-1))
-                	elem.setBackground(RED);
-                tmp[i][j] = elem;
+                		elem.setLocation(j*space+23, i*space+23);
+                		elem.addMouseListener(new Clicked(this));
+                		this.add(elem, BoderLayout.CENTER);
+                		if ((i == 0 && j == 0) || (i == m-1 && j == p-1))
+                			elem.setBackground(RED);
+                		tmp[i][j] = elem;
 			}
 		}
 		this.board = tmp;
@@ -137,13 +137,13 @@ public class Grid extends JPanel {
     		this.clearance(list);
     	if (!this.done) {
     		for (int xoff = -1 ; xoff <= 1 ; xoff++) {
-				for (int yoff = -1 ; yoff <= 1 ; yoff++) {
-					int ioff = i + xoff;
-					int joff = j + yoff;
-					if (ioff > -1 && ioff < this.m && joff > -1 && joff < this.p && (ioff == i || joff == j) && !(ioff == i && joff == j)) {
-						Cell elem = this.board[ioff][joff];
-						if (elem.getValue() == k)
-							pathfinding(k-1, ioff, joff, list);
+			for (int yoff = -1 ; yoff <= 1 ; yoff++) {
+				int ioff = i + xoff;
+				int joff = j + yoff;
+				if (ioff > -1 && ioff < this.m && joff > -1 && joff < this.p && (ioff == i || joff == j) && !(ioff == i && joff == j)) {
+					Cell elem = this.board[ioff][joff];
+					if (elem.getValue() == k)
+						pathfinding(k-1, ioff, joff, list);
 					}
 				}
 			}
