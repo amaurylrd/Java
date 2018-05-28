@@ -119,7 +119,7 @@ public class Grid extends JPanel {
     }
 
     private void backtrace(int k) {
-    	int scope = this.m + this.p - 2;
+    	int scope = this.m * this.p - 2;
     	Cell[] list = new Cell[scope];
     	this.done = false;
     	for (int i = 0 ; i < this.m ; i++) {
@@ -133,7 +133,7 @@ public class Grid extends JPanel {
 
     private void pathfinding(int k, int i, int j, Cell[] list) {
     	list[k] = this.board[i][j];
-    	if (k == 0)
+    	if (k == 0 || list[i].getValue() == 0)
     		this.clearance(list);
     	if (!this.done) {
     		for (int xoff = -1 ; xoff <= 1 ; xoff++) {
@@ -160,9 +160,11 @@ public class Grid extends JPanel {
 	private void clearance(Cell[] list) {
 		this.done = true;
 		for (int i = 0 ; i < list.length ; i++)
-			if (list[i].getValue() != -2) {
-				list[i].setBackground(PATH);
-				list[i].setText(Integer.toString(list[i].getValue()));
-			}
+			// if (list[i] != null) {
+				if (list[i].getValue() != -2) {
+					list[i].setBackground(PATH);
+					list[i].setText(Integer.toString(list[i].getValue()));
+				}
+			// }
 	}
 }
