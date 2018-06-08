@@ -2,7 +2,7 @@
 
 Encapsule l'ensemble des sources qui forment un jeu pacman-like tour par tour.
 
-## Notion exploitée
+## Notions exploitées
 
 Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins, évalué à l'échelle du temps passé au code et à la recherche (quelques heures), il faut retenir que nombreux ont été les bénéfices.
 
