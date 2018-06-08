@@ -20,30 +20,33 @@ Le but est de manger tous les bonbons sans se faire soi-même manger par un des 
 ### Avatar et IA
 
 Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux qui s'intensifient, de plus en plus en stratégiques. Sur cette base, la décision a été prise de n'injecter que trois fantômes sur les quatre originaux.
+cf. documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
 
-**Blinky**
+### **Blinky**
 
 ![I'm a relative reference to a repository file](./Asset/ghost0.png) Le fantôme rouge connait en permanence la position du joueur et s'y dirige.
 
-**Clyde**
+### **Clyde**
 
 ![I'm a relative reference to a repository file](./Asset/ghost1.png) Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
-**Pinky**
+### **Pinky**
 
-![I'm a relative reference to a repository file](./Asset/ghost2.png) Le fantôme rose prepare une embuscade au pacman et vise le carrefour le plus proche. 
+![I'm a relative reference to a repository file](./Asset/ghost2.png) Le fantôme rose prépare une embuscade au pacman et vise le carrefour le plus proche de ce dernier. 
 
-**Pacman**
+### **Pacman**
 
-![I'm a relative reference to a repository file](./Asset/right.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
+![I'm a relative reference to a repository file](./Asset/right.png) La direction du pacman dépend des inputs générés par le joueur. 
+
+### **Pacman**
+
+![I'm a relative reference to a repository file](./Asset/panic.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
 **Clyde**
 
 ![I'm a relative reference to a repository file](./Asset/eye_only.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
-**Pacman**
 
-![I'm a relative reference to a repository file](./Asset/panic.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
 
 
