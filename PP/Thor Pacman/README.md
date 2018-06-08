@@ -10,7 +10,7 @@ Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins,
 
 + Pour ce qui est de la construction du jeu, c'est grâce à un bitmap que le plateau est généré. Il s'agit d'un format d'image matricielle dont les pixels représentent les coefficients.
 
-> **Note** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en place chaques élèments de la grille.
+> **Note** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en placant les élèments de la grille.
 
 + Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à A*.
 
