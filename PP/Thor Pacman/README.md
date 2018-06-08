@@ -6,7 +6,7 @@ Encapsule l'ensemble des sources qui forment un jeu pacman-like tour par tour.
 
 L'utilisateur contrôle pacman qui se déplace dans une grille sur laquelle sont aussi présents des fantômes, des bonbons et des super pac-gommes.
 
-### - But
+## - But
 
 Le but est de manger tous les bonbons sans se faire soi-même manger par un des fantômes. Au niveau 1, la partie est gagnée lorsque pacman a dévoré les 200 bonbons. Si un fantôme rencontre en un point pacman, la partie est perdue.
 
