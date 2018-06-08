@@ -1,4 +1,4 @@
-# Thor Pacman
+# *Thor* Pacman
 
 Encapsule l'ensemble des sources qui forment un jeu pacman-like tour par tour.
 
