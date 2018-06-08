@@ -54,4 +54,12 @@ Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux
 
 ***
 
-## Explication - 1 Tour
+## Explication - Un tour
+
+### Initialisation
+
+Pacman et les fantômes ont une case de départ attribuée grâce au bitmap. La Partie se joue à chaque input du joueur.
+
+### Loop
+
+On bouge pacman, puis les fantômes en fonction de cette position. Si aucune collision n'est engendrée et que le nombre de bonbon encore présents est supérieur à zéro, le jeu continue.
