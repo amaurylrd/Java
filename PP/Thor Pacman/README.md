@@ -30,7 +30,8 @@ Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux
 
 > **Note cf.** : documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
 
-### **Blinky** #### *La Rockette téléguidée*
+### **Blinky** 
+#### *La Rockette téléguidée*
 
 ![I'm a relative reference to a repository file](./Asset/ghost0.png) Le fantôme rouge connait en permanence la position du joueur et s'y dirige.
 
