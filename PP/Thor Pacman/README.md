@@ -37,9 +37,9 @@ Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux
 
 ![I'm a relative reference to a repository file](./Asset/eye_only.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
-**Clyde**
+**Pacman**
 
-![I'm a relative reference to a repository file](./Asset/ghost1.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
+![I'm a relative reference to a repository file](./Asset/right.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
 
 
