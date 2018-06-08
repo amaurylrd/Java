@@ -20,7 +20,9 @@ Le but est de manger tous les bonbons sans se faire soi-même manger par un des 
 ### Avatar et IA
 
 Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux qui s'intensifient, de plus en plus en stratégiques. Sur cette base, la décision a été prise de n'injecter que trois fantômes sur les quatre originaux.
+```
 cf. documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
+```
 
 ### **Blinky**
 
