@@ -16,7 +16,7 @@ Le but est de manger tous les bonbons sans se faire soi-même manger par un des 
 
 ### Avatar et IA
 
-![gestion de contacts](http://www.iut-fbleau.fr/sitebp/web/wim21/mvc/ci314.png)
+[I'm a relative reference to a repository file](./Asset/ghost0.png)
 ont été disposé arbitrairement en dure un point de départ et un point d'arrivé. Il peut à l'aide du clic droit placer et retirer à discrétion des "murs", soit bloquer des zones de sorte que l'application ait l'apparence d'un labyrinthe. On peut en se jouant distinguer un mur d'une case asseptisé grâce à leur couleur de fond. Aussi disponible, le clic gauche, déclanche quant à lui la recherche d'un chemin le plus court et l'affiche. On peut redémarrer l'exercice, en cliquant à nouveau.
 
 
