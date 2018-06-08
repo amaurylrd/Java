@@ -7,7 +7,7 @@ Encapsule l'ensemble des sources qui forment un jeu pacman-like tour par tour.
 Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins, évalué à l'échelle du temps passé au code et à la recherche (quelques heures), il faut retenir que nombreux ont été les bénéfices.
 
 + Pacman est l'application première qui tore 
-> **Note cf.** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en place chaques élèments de la grille.
+> **Note** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en place chaques élèments de la grille.
 
 ## Description
 
@@ -20,9 +20,8 @@ Le but est de manger tous les bonbons sans se faire soi-même manger par un des 
 ### Avatar et IA
 
 Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux qui s'intensifient, de plus en plus en stratégiques. Sur cette base, la décision a été prise de n'injecter que trois fantômes sur les quatre originaux.
-```
-cf. documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
-```
+
+> **Note** : cf. documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
 
 ### **Blinky**
 
