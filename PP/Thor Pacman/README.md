@@ -12,7 +12,7 @@ Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins,
 
 > **Note** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en placant les élèments de la grille.
 
-+ Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à A*.
++ Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à A*. En effet, on fait intervenir des listes et on calcule des distances avec la différence cartésienne. Etant donné que seuls les directions cardinales sont autorisées et qu'il existe toujours un chemin, il aura suffit d'interdire le retour sur la dernière case visitée.
 
 ## Description
 
