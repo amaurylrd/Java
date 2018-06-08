@@ -12,7 +12,7 @@ Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins,
 
 > **Note** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en place chaques élèments de la grille.
 
-+ Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à a*.
++ Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à A*.
 
 ## Description
 
