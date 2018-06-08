@@ -14,7 +14,7 @@ Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins,
 
 + Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à A*. En effet, on fait intervenir des listes et on calcule des distances avec la différence cartésienne. Etant donné que seuls les directions cardinales sont autorisées et qu'il existe toujours un chemin, il suffisait d'interdire le retour sur la dernière case visitée.
 
-+ Implémentation d'une ia, ou plutôt de trois ias ! Chaque fantôme a une "personnalité" et un comportement propre. En connaissant les algorithmes on peut facilement déduire les actions à venir et les meilleurs coups à jouer.
++ Implémentation d'une ia, ou plutôt de trois ias ! Chaque fantôme a une "personnalité" et un comportement propre. En connaissant les algorithmes on peut facilement déduire les actions à venir et les meilleurs coups à jouer !
 
 ## Description
 
