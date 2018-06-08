@@ -30,15 +30,15 @@ Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux
 
 > **Note cf.** : documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
 
-### **Blinky**
+### **Blinky** *La Rockette téléguidée*
 
 ![I'm a relative reference to a repository file](./Asset/ghost0.png) Le fantôme rouge connait en permanence la position du joueur et s'y dirige.
 
-### **Clyde**
+### **Clyde** *Le Chasseur*
 
 ![I'm a relative reference to a repository file](./Asset/ghost1.png) Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
-### **Pinky**
+### **Pinky** *le Fourbe*
 
 ![I'm a relative reference to a repository file](./Asset/ghost2.png) Le fantôme rose prépare une embuscade au pacman et vise le carrefour le plus proche de ce dernier. 
 
