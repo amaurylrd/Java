@@ -31,25 +31,32 @@ Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux
 > **Note cf.** : documentation sur le comportement des fantômes [ici](http://gameinternals.com/post/2072558330/understanding-pac-man-ghost-behavior)
 
 ### **Blinky** 
-#### *La Rockette téléguidée*
+#### *- La Rockette téléguidée -*
 
 ![I'm a relative reference to a repository file](./Asset/ghost0.png) Le fantôme rouge connait en permanence la position du joueur et s'y dirige.
 
-### **Clyde** *Le Chasseur*
+
+### **Clyde** 
+#### *- Le Chasseur -*
 
 ![I'm a relative reference to a repository file](./Asset/ghost1.png) Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
 
-### **Pinky** *le Fourbe*
+
+### **Pinky** 
+#### *- le Fourbe -*
 
 ![I'm a relative reference to a repository file](./Asset/ghost2.png) Le fantôme rose prépare une embuscade au pacman et vise le carrefour le plus proche de ce dernier. 
+
 
 ### **Pacman**
 
 ![I'm a relative reference to a repository file](./Asset/right.png) La direction du pacman dépend des inputs générés par le joueur. 
 
+
 ### **Vulnerable Ghost**
 
 ![I'm a relative reference to a repository file](./Asset/panic.png) Si pacman mange une pac-gomme (point rouge) les déplacements de tous les fantômes sont affectés et deviennent vulnérables pour 30 tours. 
+
 
 ### **Dead Ghost**
 
