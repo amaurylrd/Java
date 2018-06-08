@@ -8,7 +8,7 @@ L'utilisateur contrôle pacman qui se déplace dans une grille sur laquelle sont
 
 ### But
 
-Le but est de manger tous les bonbons sans se faire soi-même manger par un des fantômes. Au niveau 1, la partie est gagnée lorsque pacman a dévoré les 200 bonbons. Si un fantôme rencontre en un point pacman, la partie est perdue.
+Le but est de manger tous les bonbons sans se faire soi-même manger par un des fantômes. Au niveau 1, la partie est gagnée lorsque pacman a dévoré les 200 bonbons. En revanche, si un fantôme rencontre en un point pacman, la partie est perdue.
 
 ### Avatar et IA
 
