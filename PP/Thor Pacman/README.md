@@ -6,8 +6,13 @@ Encapsule l'ensemble des sources qui forment un jeu pacman-like tour par tour.
 
 Il s'agit d'un projet qui avant tout a été contraint par le temps. Néanmoins, évalué à l'échelle du temps passé au code et à la recherche (quelques heures), il faut retenir que nombreux ont été les bénéfices.
 
-+ Pacman est l'application première qui tore 
++ Pacman est une application du concepte de *tore*. Un tore est un solide géométrique représentant un tube courbé refermé sur lui-même. C'est-à-dire que si on voulait modéliser en volume le jeu, ça donnerait un genre de donut qui permetrait les jointures.
+
++ Pour ce qui est de la construction du jeu, c'est grâce à un bitmap que le plateau est généré. Il s'agit d'un format d'image matricielle dont les pixels représentent les coefficients.
+
 > **Note** : On pourrait imaginer au menu un bouton `editing` pour construire un niveau en place chaques élèments de la grille.
+
++ Dans la continuité d'une réflexion sur les algorithmes de recherche du plus court chemin, celui choisit est similaire à a*.
 
 ## Description
 
