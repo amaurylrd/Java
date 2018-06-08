@@ -39,17 +39,13 @@ Avec la transposition d'un bitmap en grille de jeu, on peut imaginer des niveaux
 
 ![I'm a relative reference to a repository file](./Asset/right.png) La direction du pacman dépend des inputs générés par le joueur. 
 
-### **Pacman**
+### **Vulnerable Ghost**
 
-![I'm a relative reference to a repository file](./Asset/panic.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
+![I'm a relative reference to a repository file](./Asset/panic.png) Si pacman mange une pac-gomme (point rouge) les déplacements de tous les fantômes sont affectés et deviennent vulnérables pour 30 tours. 
 
-**Clyde**
+### **Dead Ghost**
 
-![I'm a relative reference to a repository file](./Asset/eye_only.png)  Le fantôme vert avance aléatoirement jusqu'à être informé de la position du joueur quand il le voit et le chase alors avant de le perdre de vue à nouveau. 
-
-
-
-
+![I'm a relative reference to a repository file](./Asset/eye_only.png) Si pacman mange un fantôme, ce dernier ne change rien à son comportement, ses mouvements restent aléatoires, en revanche il change d'apparence. 
 
 ***
 
