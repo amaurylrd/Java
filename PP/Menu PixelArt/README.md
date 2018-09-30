@@ -1,6 +1,6 @@
 # PixelArt Menu
 
-Encapsule l'ensemble des sources qui forment une application graphique java de menu de jeu.
+Encapsule l'ensemble des sources qui forment une application graphique java de menu de jeu et les images créées pour l'occasion.
 
 ## Description
 
